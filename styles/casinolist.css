@@ -1,0 +1,102 @@
+.cmp-casinolist {
+  width: 100%;
+  display: flex;
+  font-size: 16px;
+  justify-content: center; }
+
+.cmp-casinolist-table {
+  width: 100%;
+  border-collapse: collapse; }
+  .cmp-casinolist-table thead {
+    background: #D29F39;
+    color: #322610;
+    display: none; }
+    .cmp-casinolist-table thead .table-heading {
+      min-height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .cmp-casinolist-table tbody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .cmp-casinolist-table tbody tr {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border-bottom: 1px solid #6C5425; }
+      .cmp-casinolist-table tbody tr td {
+        padding: 1em; }
+  @media (min-width: 520px) {
+    .cmp-casinolist-table tbody tr {
+      display: flex;
+      flex-direction: column;
+      width: 50%; } }
+  @media (min-width: 860px) {
+    .cmp-casinolist-table thead {
+      display: table-header-group; }
+    .cmp-casinolist-table tbody {
+      display: table-row-group; }
+      .cmp-casinolist-table tbody tr {
+        display: table-row;
+        width: auto; } }
+
+.cmp-casino-logo {
+  max-width: 210px; }
+
+.cmp-casinolist__link {
+  color: #236cb0; }
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.cmp-casinolist__features li {
+  list-style: none; }
+  .cmp-casinolist__features li::before {
+    content: '';
+    position: relative;
+    left: -15px;
+    width: 15px;
+    height: 15px;
+    border-radius: 0.5em;
+    background-color: #6C5425;
+    display: inline-flex; }
+
+.cmp-casino__statement {
+  max-width: 200px;
+  margin: 0 auto;
+  text-align: center; }
+
+.cmp-casinolist__cta {
+  background-color: #306E2C;
+  color: #FFFFFF;
+  padding: 0.75em 3em;
+  border-radius: 0.5em;
+  text-transform: uppercase; }
+
+.cmp-casino-link {
+  font-size: 12px;
+  text-align: center; }
+  .cmp-casino-link a {
+    color: #B58784; }
+
+.section-heading {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.btn-primary {
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  background-color: #333;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 900;
+  border: 1px solid #333;
+  cursor: pointer; }
+
+/*# sourceMappingURL=casinolist.css.map */
